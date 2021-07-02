@@ -1,0 +1,325 @@
+body {
+	background-color: #012b62;
+	font-family: "Roboto Condensed";
+	width: 100vw;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/* ------------Navbar------------ */
+
+.container-fluid {
+	background-color: #012b62;
+	margin: 0;
+	padding: 0 2% 0 8%;
+}
+.totalNavBar {
+	padding: 0;
+	margin: 0;
+}
+.navbar-brand {
+	width: 10%;
+	height: auto;
+}
+#logo {
+	width: 100%;
+	padding: 10%;
+}
+
+form {
+	position: relative;
+	margin-left: 45%;
+	text-align: right;
+}
+
+/* (unordered list) */
+#navbarNavDropdown a {
+	color: white;
+}
+
+.dropdown-menu {
+	background: rgba(1, 43, 98, 0.5);
+}
+
+.dropdown-item {
+	color: white;
+}
+.dropdown-item:hover {
+	background-color: black;
+}
+
+/* search bar */
+.d-flex {
+	align: right;
+}
+.d-flex button {
+	border: solid 1px #5c8a99;
+	color: #5c8a99;
+}
+.d-flex button:hover {
+	background-color: #5c8a99;
+	border: solid 1px #5c8a99;
+}
+
+/* ------------Top Container - photo w/ quote ---------*/
+.topContainer {
+	background-image: url(Images/man\ outside\ coffee.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 70%;
+	width: 100%;
+	height: 35rem;
+}
+.topContainer h1 {
+	padding: 13rem 10rem 5rem 5rem;
+	width: 50%;
+	margin-left: 57%;
+	font-weight: 700;
+	color: #e3ded7;
+	text-shadow: -1px -1px 0 #324331, 1px -1px 0 #324331, -1px 1px 0 #324331,
+		1px 1px 0 #324331;
+}
+/* ------------Large Logo --------------*/
+
+.intro {
+	width: 100%;
+}
+.logo {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: none;
+	padding: none;
+}
+
+.logo img {
+	width: 45%;
+	height: auto;
+	align-self: center;
+}
+/* ------------Products Container---------- */
+
+.productsContainer {
+	background-color: #e3ded7;
+	color: #012b62;
+	text-align: center;
+	padding: 5%;
+}
+.productsContainer a {
+	text-decoration: none;
+	color: #e3ded7;
+	text-shadow: -1px -1px 0 #324331, 1px -1px 0 #324331, -1px 1px 0 #324331,
+		1px 1px 0 #324331;
+}
+.exploreH2 {
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+/* product column design */
+
+.container h2 {
+	font-size: 1.4rem;
+	padding: 8% 5%;
+	height: 100%;
+	width: 100%;
+}
+.col-md-3:hover {
+	transition: 0.25s ease-in;
+	transform: scale(1.05);
+}
+
+.col-md-3 {
+	border: 3px solid #012b62;
+	border-radius: 10px;
+	margin: 1rem 2rem;
+	height: 22rem;
+}
+
+/* product column background images */
+
+.freshRoasted {
+	background-image: url(images/coffeeRoasting.png);
+	background-size: cover;
+	background-position: left 45% top 0%;
+}
+
+.instant {
+	background-image: url(images/instantCoffee.png);
+	background-size: cover;
+	background-position: left 45% top 20%;
+}
+
+.merch {
+	background-image: url(images/merchPic.png);
+	background-size: cover;
+	background-position: left 45% bottom 5%;
+}
+
+/* -----------Carousel Section------------ */
+
+.carousel-item {
+	width: 100%;
+	height: auto;
+}
+
+.carousel-caption h5,
+p {
+	width: 50%;
+	text-align: center;
+	margin-left: 5%;
+	font-weight: bold;
+}
+#skierCaption {
+	color: #012b62;
+}
+
+#cliffCaption {
+	position: absolute;
+	margin-left: 15%;
+	width: 70%;
+}
+#coffeePotCaption {
+	position: absolute;
+	margin-bottom: 17%;
+}
+
+.carouselImg {
+	position: relative;
+	margin-top: -17%;
+}
+
+/* carousel buttons */
+
+.carousel-control-prev {
+	background: none;
+	border: none;
+}
+.carousel-control-next {
+	background: none;
+	border: none;
+}
+
+/* -----------Contact Info----------- */
+
+.row {
+	text-align: center;
+	margin: none;
+}
+
+.contactInfo {
+	color: #e3ded7;
+	height: 10vw;
+	width: 100%;
+	padding: 5% 0%;
+	margin: 0 auto;
+}
+
+.contactInfo a {
+	text-decoration: none;
+	color: #e3ded7;
+}
+
+.contactInfo h3 {
+	font-weight: bold;
+	padding: 3% 0;
+}
+
+.contactInfo p {
+	font-weight: normal;
+	justify-content: center;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.contactLink:hover {
+	transition: 0.25s ease-in;
+	font-size: 1.03rem;
+	color: #7c7a79;
+}
+
+/* ----------social media---------- */
+
+.socialMedia {
+	padding: 5% 0;
+	width: 50%;
+	margin: auto;
+	justify-content: center;
+	color: #e3ded7;
+}
+#socialMediaRow {
+	margin: 0 auto;
+}
+.col-sm a {
+	padding: 1%;
+}
+.socialMedia a {
+	text-decoration: none;
+	font-size: 1.7rem;
+	color: #e3ded7;
+}
+.socialMedia i:hover {
+	transition: 0.2s ease-in;
+	transform: scale(1.5);
+}
+
+/* ---------Footer/Disclaimer----------- */
+.footer {
+	margin: 0 auto;
+	font-size: 0.7rem;
+}
+.footer .row {
+	width: 25vw;
+	margin: 0 auto;
+}
+.footerItems a {
+	color: #e3ded7;
+	text-decoration: none;
+	margin: 0 5%;
+	padding: none;
+}
+
+.footerItems a:hover {
+	cursor: pointer;
+	color: #7c7a79;
+}
+
+.footer p {
+	margin: 0 auto;
+	color: #0152bd;
+}
+
+/* --------- Media Queries ------------ */
+@media screen and (min-width: 370px) and (max-width: 990px) {
+	/* NavBar */
+	.container-fluid {
+		color: #e3ded7;
+	}
+
+	form {
+		padding-bottom: 3%;
+	}
+
+	/* top-container */
+	.topContainer h1 {
+		padding: 5rem 2rem 55rem 12rem;
+		width: 90%;
+		margin: 0 auto;
+
+		text-align: right;
+	}
+	/* logo container */
+	.logo {
+		margin: 0 auto;
+	}
+	#logoImage {
+		margin: 0 auto;
+		width: 55%;
+	}
+	#socialMediaRow {
+		margin-top: 300px;
+	}
+}
